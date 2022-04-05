@@ -1,0 +1,27 @@
+{
+  "name": "natto-backend",
+  "version": "1.0.0",
+  "description": "Server for nattO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hakonjarvis/nattO-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hakonjarvis/nattO-backend/issues"
+  },
+  "homepage": "https://github.com/hakonjarvis/nattO-backend#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.14.0"
+  }
+}
